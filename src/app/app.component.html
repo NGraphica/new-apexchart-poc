@@ -1,14 +1,16 @@
-<div class="container">
-  <div class="row col-md-12">
-    <button class="btn btn-primary col-md-2 mr-3">By Rule</button>
-    <button class="btn btn-primary col-md-2 mr-3">by Severity</button>
-    <button class="btn btn-primary col-md-2 mr-3">by Resolved</button>
-    <button class="btn btn-primary col-md-2 mr-3">MoM Spend</button>
-  </div>
-  <div id="chart" #chart  style="text-align:center">
-    <!-- <apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart" [xaxis]="chartOptions.xaxis"
-      [title]="chartOptions.title" [plotOptions]="chartOptions.plotOptions"></apx-chart> -->
-  </div>
-
-  <router-outlet></router-outlet>
-</div>
+<nav>
+  <a routerLink="/taskone">Task 1</a>
+</nav>
+<nav>
+  <a routerLink="/tasktwo">Task 2</a>
+</nav>
+<nav>
+  <a routerLink="/taskthree">Task 3</a>
+</nav>
+<nav>
+  <a routerLink="/taskfour">Task 4</a>
+</nav>
+<!-- <nav>
+  <a routerLink="/taskfive">Task 5</a>
+</nav> -->
+<router-outlet></router-outlet>
